@@ -1,16 +1,14 @@
 # WebsiteEnumerationTool
 This script creates an object that you can leverage as premium hacking tool for website enumeration
-###System Requirements
+### System Requirements
   1. `Sudo apt-get install Nmap`
   2. `Sudo apt-get install Whois`
   
-  
- ###Python Package Requirements
+### Python Package Requirements
    1. `pip install requests`
    
  
-
-###Arguments
+### Arguments
 '''
 __required__
 host should be in the following format i.e (_https://www.facebook.com_)
@@ -20,7 +18,18 @@ __optional__
 
 Test = HackTool(host, -O)  _-O is a optinal Nmap argument_
 
- 
+ '''
+### Use
+
+'''
+
+  Test = HackTool(host)
+  Test.nmap_scan()
+  Test.get_ip()
+  Test.whois_lookup()
+
+
+
 
 '''
 

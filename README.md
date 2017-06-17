@@ -18,16 +18,14 @@ Test = HackTool(host)`
 
 __optional__
 
-`
 _-O is a optinal Nmap argument_
-...Test = HackTool(host, -O)
 `
+Test = HackTool(host, -O)
+`
+
 ### Use
-`
-  ...Test = HackTool(host)
-  ...Test.nmap_scan()
-  ...Test.get_ip()
-  ...Test.whois_lookup()
+ ` Test.nmap_scan() `
+
 
 `
 

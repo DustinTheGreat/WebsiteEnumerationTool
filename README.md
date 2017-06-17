@@ -18,11 +18,8 @@ __optional__
 
 Test = HackTool(host, -O)  _-O is a optinal Nmap argument_
 
- `
 ### Use
-
 `
-
   Test = HackTool(host)
   Test.nmap_scan()
   Test.get_ip()

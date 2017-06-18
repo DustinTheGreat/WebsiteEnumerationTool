@@ -39,7 +39,7 @@ import argparse
 #the only mandatory argument is a hostname ie:'https://www.facebook.com'
 class HackTool(object):
 
-	LOG_FILENAME = 'example.log'
+	LOG_FILENAME = 'scan.log'
 	logging.basicConfig(filename=LOG_FILENAME,level=logging.DEBUG)
 
 	def __init__(self, host, options=None):

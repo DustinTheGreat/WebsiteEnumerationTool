@@ -7,18 +7,16 @@ This script creates an object that you can leverage as premium hacking tool for 
 ### Python Package Requirements
    1. `pip install requests`
    
- 
-### Arguments
+ ### Arguments
 
 __required__
 
-`
+
 host should be in the following format i.e (_https://www.facebook.com_)
-Test = HackTool(host)`
+`Test = HackTool(host)`
 
 __optional__
 
-_-O is a optinal Nmap argument_
 `
 Test = HackTool(host, -O)
 `

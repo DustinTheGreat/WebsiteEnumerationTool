@@ -10,7 +10,12 @@ This script creates an object that you can leverage as premium hacking tool for 
  ### Arguments
 
 __required:__
-`Test = HackTool(host)`
+
+
+
+
+`Test = HackTool(host)
+  
 
 __optional__
 
@@ -20,13 +25,5 @@ Test = HackTool(host, -O)
 
 ### Use
  ` Test.nmap_scan() `
-
-
-
-###Tips
-host should be in the following format i.e (_https://www.facebook.com_)
-
-
-
 
   

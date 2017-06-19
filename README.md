@@ -13,8 +13,7 @@ __required:__
 
 
 
-
-`Test = HackTool(host)
+`Test = HackTool(host) `
   
 
 __optional__

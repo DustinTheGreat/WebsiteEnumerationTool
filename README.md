@@ -9,7 +9,7 @@ This script creates an object that you can leverage as premium hacking tool for 
    
  ### Arguments
 
-__required__
+__required:__
 
 
 host should be in the following format i.e (_https://www.facebook.com_)
